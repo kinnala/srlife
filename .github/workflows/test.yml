@@ -10,5 +10,4 @@ jobs:
             - run: pip3 install --user -r requirements.txt
             - run: pip3 install -U git+https://github.com/kinnala/scikit-fem.git
             - run: nosetests3
-            - run: pylint srlife
 

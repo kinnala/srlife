@@ -151,7 +151,11 @@ disable=print-statement,
         unused-argument,
         assignment-from-no-return,
         len-as-condition,
-        too-many-arguments
+        too-many-arguments,
+        consider-using-f-string,
+        consider-using-in,
+        unnecessary-lambda-assignment,
+        implicit-str-concat
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
@@ -210,7 +214,7 @@ indent-after-paren=4
 
 # String used as indentation unit. This is usually "    " (4 spaces) or "\t" (1
 # tab).
-indent-string='  '
+indent-string='    '
 
 # Maximum number of characters on a single line.
 max-line-length=100
